@@ -25,6 +25,8 @@ namespace Singleton
             return sb.ToString();
         }
 
+
+
         private StakeholderSingleton()
         {
             Id = Guid.NewGuid();
