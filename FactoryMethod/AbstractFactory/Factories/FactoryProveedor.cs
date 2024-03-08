@@ -5,12 +5,12 @@ namespace AbstractFactory.Factories
 {
     public class FactoryProveedor : IMaiFactory
     {
-        public IProveedor CreateIdProveedor()
+        public IProveedor CreateProveedor()
         {
             return new Proveedor();
         }
 
-        public IStakeholder CreateIdStakeholder()
+        public IStakeholder CreateStakeholder()
         {
             return new Stakeholder();
         }
