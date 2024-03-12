@@ -26,6 +26,6 @@ clonedProveedor.Id = 7;
 clonedProveedor.Draw();
 
 Console.WriteLine();
-Console.WriteLine("Objeto original del Stakeholder y del Proveedor se verifica que el origina no fue modificado");
+Console.WriteLine("Se verifica que el Objeto original del Stakeholder y del Proveedororigina no fue modificado");
 stakeholder.Draw();
 proveedor.Draw();

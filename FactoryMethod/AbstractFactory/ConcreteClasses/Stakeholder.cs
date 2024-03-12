@@ -10,7 +10,7 @@ namespace AbstractFactory.ConcreteClasses
     {
         public void Render()
         {
-            Console.WriteLine("Se Creo el Stakeholder");
+            Console.WriteLine("Stakeholder creado Correctamente");
         }
     }
 }

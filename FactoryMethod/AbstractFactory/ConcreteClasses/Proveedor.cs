@@ -10,7 +10,7 @@ namespace AbstractFactory.ConcreteClasses
     {
         public void Render()
         {
-            Console.WriteLine("Se Creo un Proveedor");
+            Console.WriteLine("Proveedor creado Correctamente");
         }
     }
 }
