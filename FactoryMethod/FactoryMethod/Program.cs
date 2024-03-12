@@ -1,20 +1,21 @@
-﻿using FactoryMethod.Fabrica;
-using FactoryMethod;
+﻿//using FactoryMethod.Fabrica;
+//using FactoryMethod;
 
-StakeholderFactory clienteFactory = new StakeholderClienteFactory();
-StakeholderFactory proveedorFactory = new StakeholderProveedorFactory();
+//StakeholderFactory clienteFactory = new StakeholderClienteFactory();
+//StakeholderFactory proveedorFactory = new StakeholderProveedorFactory();
 
-Console.WriteLine();
+//Console.WriteLine();
 
-IRequisitos cliente = clienteFactory.CrearStakeholders();
-cliente.Name = "Juan Pérez";
-cliente.PhoneNumber = "300647892";
-cliente.Contactar();
+//IRequisitos cliente = clienteFactory.CrearStakeholders();
+//cliente.Name = "Juan Pérez";
+//cliente.PhoneNumber = "300647892";
+//cliente.Contactar();
 
-Console.WriteLine();
+//Console.WriteLine();
 
-IRequisitos proveedor = proveedorFactory.CrearStakeholders();
-proveedor.Name = "Empresa Z";
-proveedor.PhoneNumber = "300536000";
-proveedor.Contactar();
+//IRequisitos proveedor = proveedorFactory.CrearStakeholders();
+//proveedor.Name = "Empresa Z";
+//proveedor.PhoneNumber = "300536000";
+//proveedor.Contactar();
+
 

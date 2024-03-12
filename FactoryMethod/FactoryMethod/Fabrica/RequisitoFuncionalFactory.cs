@@ -1,4 +1,6 @@
-﻿namespace FactoryMethod.Fabrica
+﻿using FactoryMethod.Usuarios;
+
+namespace FactoryMethod.Fabrica
 {
     public class RequisitoFuncionalFactory : IRequisitoFactory
     {
