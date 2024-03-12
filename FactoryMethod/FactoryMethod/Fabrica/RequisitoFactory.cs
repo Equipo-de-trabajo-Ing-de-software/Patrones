@@ -19,7 +19,7 @@ namespace FactoryMethod.Fabrica
             }
             else
             {
-                throw new ArgumentException("Requerimiento Invalido");
+                throw new ArgumentException("Tipo de Requisito Invalido");
             }
         }
     }

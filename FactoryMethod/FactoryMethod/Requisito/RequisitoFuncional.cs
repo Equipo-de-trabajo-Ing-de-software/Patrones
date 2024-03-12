@@ -2,9 +2,9 @@
 {
     internal class RequisitoFuncional : IRequisito
     {
-        public string Id { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public string Name { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
-        public string Type { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public string Id { get; set; }
+        public string Name { get ; set; }
+        public string Type { get ; set; }
 
         public void CrearRequisito()
         {
