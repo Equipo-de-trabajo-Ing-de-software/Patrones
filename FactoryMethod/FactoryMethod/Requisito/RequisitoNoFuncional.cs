@@ -4,11 +4,11 @@
     {
         public string Id { get ; set ; }
         public string Name { get ; set ; }
-        public string Type { get ; set ; }
+        public string Type => "Requisitos No Funcionales";
 
         public void CrearRequisito()
         {
-            throw new NotImplementedException();
+            Console.WriteLine($"{Type}");
         }
     }
 }
