@@ -1,7 +1,7 @@
 ﻿
 namespace FactoryMethod.Fabrica
 {
-    internal class RequisitoFactory
+    public class RequisitoFactory
     {
         private static readonly Dictionary<string, IRequisitoFactory> factory = new Dictionary<string, IRequisitoFactory>();
 

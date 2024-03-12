@@ -1,6 +1,6 @@
 ﻿namespace FactoryMethod.Fabrica
 {
-    internal class RequisitoNoFuncional : IRequisito
+    public class RequisitoNoFuncional : IRequisito
     {
         public string Id { get ; set ; }
         public string Name { get ; set ; }

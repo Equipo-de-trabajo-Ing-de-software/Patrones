@@ -1,6 +1,6 @@
 ﻿namespace FactoryMethod.Usuarios
 {
-    internal class RequisitoFuncional : IRequisito
+    public class RequisitoFuncional : IRequisito
     {
         public string Id { get; set; }
         public string Name { get ; set; }
