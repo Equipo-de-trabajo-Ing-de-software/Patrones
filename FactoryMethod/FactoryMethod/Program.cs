@@ -3,17 +3,18 @@ using FactoryMethod;
 
 StakeholderFactory clienteFactory = new StakeholderClienteFactory();
 StakeholderFactory proveedorFactory = new StakeholderProveedorFactory();
-// StakeholderFactory gobiernoFactory = new StakeholderGobiernoFactory();
 
+Console.WriteLine();
 
-IStakeholders cliente = clienteFactory.CrearStakeholders();
+IRequisitos cliente = clienteFactory.CrearStakeholders();
 cliente.Name = "Juan Pérez";
+cliente.PhoneNumber = "300647892";
 cliente.Contactar();
 
-IStakeholders proveedor = proveedorFactory.CrearStakeholders();
+Console.WriteLine();
+
+IRequisitos proveedor = proveedorFactory.CrearStakeholders();
 proveedor.Name = "Empresa Z";
+proveedor.PhoneNumber = "300536000";
 proveedor.Contactar();
 
-//IStakeholder gobierno = gobiernoFactory.CreateStakeholder();
-//gobierno.Nombre = "Ministerio de Industria";
-//gobierno.Contactar();

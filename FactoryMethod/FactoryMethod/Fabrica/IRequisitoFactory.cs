@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace FactoryMethod.Fabrica
 {
-    public abstract class StakeholderFactory
+    public interface IRequisitoFactory
     {
-        public abstract IStakeholders CrearStakeholders();
+       IRequisito CrearRequisito(string type);
+
 
     }
 }

@@ -1,8 +1,10 @@
 ﻿
 using Prototype;
+using System.Xml.Linq;
 
 Console.WriteLine("Valores Iniciales del Stakeholder y Proveedor");
 Stakeholder stakeholder = new Stakeholder { Id = 1 };
+
 Proveedor proveedor = new Proveedor { Id = 2 };
 
 
