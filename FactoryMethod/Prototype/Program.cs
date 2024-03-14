@@ -1,31 +1,42 @@
 ﻿
 using Prototype;
-using System.Xml.Linq;
 
-Console.WriteLine("Valores Iniciales del Stakeholder y Proveedor");
-Stakeholder stakeholder = new Stakeholder { Id = 1 };
 
-Proveedor proveedor = new Proveedor { Id = 2 };
+
+Stakeholder stakeholder = new Stakeholder {} ;
+Console.WriteLine();
+
+Proveedor proveedor = new Proveedor {};
 
 
 //Draw original Shapes
+
 stakeholder.Draw();
+
+
 proveedor.Draw();
 
 Console.WriteLine();
 //hacer los clones
-Console.WriteLine("Clonar Stakeholder y Proveedor, con sus nuevos valores en el Id:");
+
 Stakeholder clonedStakeholder = (Stakeholder)stakeholder.Clone();
 Proveedor clonedProveedor = (Proveedor)proveedor.Clone();
 
 
-
-clonedStakeholder.Id = 6;
+Console.WriteLine("Clonar Datos del Stakeholder:");
+clonedStakeholder.Name = "Pedro Arrieta";
+clonedStakeholder.Phone = "12345678";
+clonedStakeholder.Email = "pedro@gmail.com";
 clonedStakeholder.Draw();
-clonedProveedor.Id = 7;
+Console.WriteLine();
+
+Console.WriteLine("Clonar Datos del  Proveedor:");
+clonedProveedor.Name= "Empreza X";
+clonedProveedor.Phone = "698740";
+clonedProveedor.Email = "empresax@gmail.com";
 clonedProveedor.Draw();
 
 Console.WriteLine();
-Console.WriteLine("Se verifica que el Objeto original del Stakeholder y del Proveedororigina no fue modificado");
+Console.WriteLine("Se verifica que el Objeto original del Stakeholder y del Proveedor no sean modificado");
 stakeholder.Draw();
 proveedor.Draw();

@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Xml.Linq;
+﻿
 
 namespace Prototype
 {
@@ -11,11 +6,13 @@ namespace Prototype
     {
         public Stakeholder()
         {
-            Name = "Stakeholder";
+            Name = "Lucas Perez";
+            Phone = "6478961";
+            Email = "correo@correo.com";
         }
         public override void Draw()
         {
-            Console.WriteLine($"El Id del Stakeholde es: {Id}.");
+            Console.WriteLine($"Datos del Cliente: \n  Nombre: {Name} , \n Telefono: {Phone}, \n Correo: {Email}.");
         }
     }
 }

@@ -1,7 +1,8 @@
-﻿using AbstractFactory.ConcreteClasses;
+﻿using PatronesCreacionale.AbstractFactory.ConcreteClasses;
 
 
-namespace AbstractFactory.Factories
+
+namespace PatronesCreacionale.AbstractFactory.Factories
 {
     public class FactoryProveedor : IMaiFactory
     {

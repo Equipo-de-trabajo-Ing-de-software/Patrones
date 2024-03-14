@@ -1,6 +1,6 @@
-﻿
-using AbstractFactory;
-using AbstractFactory.Factories;
+﻿using PatronesCreacionale.AbstractFactory;
+using PatronesCreacionale.AbstractFactory.Factories;
+
 
 IMaiFactory fabricaPrincipal = new FactoryStakeholder();
 IStakeholder stakeholder = fabricaPrincipal.CreateStakeholder();

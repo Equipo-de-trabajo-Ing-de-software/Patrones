@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
 
 namespace Prototype
 {
@@ -10,11 +6,13 @@ namespace Prototype
     {
         public Proveedor()
         {
-            Name = "Proveedor";
+            Name = "Empresa SIGES";
+            Phone = "554561";
+            Email = "siges@correo.com";
         }
         public override void Draw()
         {
-            Console.WriteLine($"El Id del Proveedor es: {Id}.");
+            Console.WriteLine($"Datos de la Empresa:  \n  Nombre: {Name} , \n Telefono: {Phone}, \n Correo: {Email}.");
         }
     }
 }

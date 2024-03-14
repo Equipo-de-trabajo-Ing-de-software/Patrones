@@ -1,11 +1,8 @@
-﻿using AbstractFactory.ConcreteClasses;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
+using PatronesCreacionale.AbstractFactory.ConcreteClasses;
 
-namespace AbstractFactory.Factories
+
+namespace PatronesCreacionale.AbstractFactory.Factories
 {
     public class FactoryStakeholder : IMaiFactory
     {
